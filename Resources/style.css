@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+header {
+  height: 64px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  position: relative;
+  left: 24px;
+  align-items: center;
+  height: 32px;
+  display: flex;
+  flex-basis: 500px;
+}
+
+.name img {
+  height: 2.5rem;
+}
+
+.name p {
+  color: gray;
+  font-size: 1.5rem;
+}
+
+#bold {
+  color: black;
+  font-weight: 800;
+}
+
+.navbar {
+  margin-right: 24px;
+  margin-left: auto;
+  display: flex;
+}
+
+.navbar a {
+  margin-right: 16px;
+  text-decoration: none;
+  color: black;
+  font-size: 1.3rem;
+}
