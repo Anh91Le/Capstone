@@ -1,7 +1,9 @@
-* {
+html {
   box-sizing: border-box;
   font-size: 16px;
+  font-family: "Nunito Sans", sans-serif;
 }
+/* header */
 
 header {
   height: 64px;
@@ -44,4 +46,43 @@ header {
   text-decoration: none;
   color: black;
   font-size: 1.3rem;
+}
+
+/* learn new */
+.learn-container {
+  background-color: #e0e0e0;
+  display: flex;
+  overflow: hidden;
+}
+.learn-container img {
+  width: 60%;
+  margin: 2rem 1.5rem;
+}
+.learn-text {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  position: relative;
+  top: -3rem;
+}
+
+.learn-text h1 {
+  color: #404040;
+  font-size: 2.4rem;
+  font-weight: 900;
+}
+
+.learn-text h2 {
+  color: #606060;
+  font-size: 1.8rem;
+}
+
+.learn-text p {
+  text-align: center;
+  color: white;
+  font-size: 1.7rem;
+  background-color: #404040;
+  width: 80%;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
