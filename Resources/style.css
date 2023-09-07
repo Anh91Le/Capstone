@@ -8,11 +8,32 @@ html {
 header {
   height: 64px;
   width: 100%;
+}
+
+.mobile {
+  display: none;
+}
+
+.desktop {
+  height: 4rem;
   display: flex;
   align-items: center;
 }
 
+@media screen and (max-width: 640px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: flex;
+    height: 4rem;
+    align-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
 .name {
+  width: 30%;
   position: relative;
   left: 24px;
   align-items: center;
@@ -54,6 +75,16 @@ header {
   display: flex;
   overflow: hidden;
 }
+
+@media screen and (max-width: 640px) {
+  .learn-container {
+    flex-direction: column;
+  }
+  .learn-container img {
+    width: 100%;
+  }
+}
+
 .learn-container img {
   width: 60%;
   margin: 2rem 1.5rem;
